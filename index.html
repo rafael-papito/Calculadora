@@ -14,5 +14,47 @@
     <form name='form'>
         <input class="textviw" name='textview'>
     </form>
+    <table>
+        <tr>
+            <td>
+                <input type="button" class="btn" onclick="c()" value="C" id="btn-c">
+                <input type="button" class="" onclick="back()" value="⌫" id="consert">
+                <input type="button" class="btn" onclick="insert('/')" value="÷" id="btn-operation">
+                <input type="button" class="btn" onclick="insert('*')" value="×" id="btn-operation">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="btn" onclick="insert(7)" value="7" id="btn-number">
+                <input type="button" class="btn" onclick="insert(8)" value="8" id="btn-number">
+                <input type="button" class="btn" onclick="insert(9)" value="9" id="btn-number">
+                <input type="button" class="btn" onclick="insert('+')" value="+" id="btn-operation">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="btn" onclick="insert(4)" value="4" id="btn-number">
+                <input type="button" class="btn" onclick="insert(5)" value="5" id="btn-number">
+                <input type="button" class="btn" onclick="insert(6)" value="6" id="btn-number">
+                <input type="button" class="btn" onclick="insert('-')" value="−" id="btn-operation">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="btn" onclick="insert(1)" value="1" id="btn-number">
+                <input type="button" class="btn" onclick="insert(2)" value="2" id="btn-number">
+                <input type="button" class="btn" onclick="insert(3)" value="3" id="btn-number">
+                <input type="button" class="btn" onclick="igual('=')" value="=" id="btn-operation">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="btn" onclick="insert('**2')" value="x&sup2;" id="btn-operation">
+                <input type="button" class="btn" onclick="insert(0)" value="0" id="btn-number">
+                <input type="button" class="btn" onclick="insert('**(1/2)')" value="&radic;" id="btn-operation">
+                <!--<input type="button" class="btn" onclick="igual(',')" value="." id="btn-number">-->
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
